@@ -31,3 +31,12 @@ Parameters:
 * `--corrected_folder` = Folder to store final corrected generated images; default='outputs_corrected'
 * `--iterations`       = Number of iterations to run the optimizer; default = 10
 
+## Example
+
+This is the correction of the problem found in the previous repo: the content PNG is the Autumn Leaf and the style is represented by Starry Night (Van Gogh). I used only 10 iterations to just demonstrate the idea of this repo. The transfer of the transparency from the content resized PNG affects all the pixels in the corrected generated PNG (not only the transparent background).
+
+![Output Leaf StaryNight](images/DL-Art4Transparency_Leaf_Starry-night.png)
+
+Note: additional exampes will be added soon!
+
+Enjoy the deep learning application in Art!
