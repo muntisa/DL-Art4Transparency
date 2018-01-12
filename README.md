@@ -14,9 +14,9 @@ In the previous repo, mDL-ArtTransfer: Deep Learning Art Transfer using Multiple
 ## Solution
 
 DL-Art4Transparency has three steps:
-1) Art transfer using Deep Learning (fchollet_neural_style_transfer.py) - transfer of style patterns into a content image, resulting a generating image; this is based on the fchollet's AI: https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py.
-2) Resize the content PNG keeping the transparency (PngResizeTransparency.py) by using the size of the generated image.
-3) Transfer the transparency of the resized content PNG to the generated image, resulting a corrected image.
+1) Art transfer using Deep Learning (`fchollet_neural_style_transfer.py`) - transfer of style patterns into a content image, resulting a generating image; this is based on the fchollet's AI: https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py.
+2) Resize the content PNG keeping the transparency (`PngResizeTransparency.py`) by using the size of the generated image.
+3) Transfer the transparency of the resized content PNG to the generated image (`PngTransfTransparency.py`), resulting a corrected image.
 
 ## Use
 
