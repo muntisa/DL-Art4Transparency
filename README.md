@@ -1,9 +1,15 @@
 # DL-Art4Transparency
 Deep Learning Art Transfer for Transparent PNGs
 
+## Target Users
+
+* Graphical designers
+* Game designers
+* Fashion designers
+
 ## Problem to solve
 
-In the previous repo, mDL-ArtTransfer: Deep Learning Art Transfer using Multiple AIs, I detected problems with the Art Transfer AIs in the case of PNG due to the transparency. Generally, the transparent background was filled with style patterns and, therefore, the transparent background disappears.
+In the previous repo, mDL-ArtTransfer: Deep Learning Art Transfer using Multiple AIs (https://github.com/muntisa/mDL-ArtTransfer), I detected problems with the Art Transfer AIs in the case of PNG due to the transparency. Generally, the transparent background was filled with style patterns and, therefore, the transparent background disappears.
 
 ## Solution
 
@@ -14,14 +20,14 @@ DL-Art4Transparency has three steps:
 
 ## Use
 
-Just call the main py script (python DL-Art4Transparency.py) and keep the folder structure of the repo. This will use only 10 iterations for fast testing of the scripts.
+Just call the main py script (`python DL-Art4Transparency.py`) and keep the folder structure of the repo. This will use only 10 iterations for fast testing of the scripts.
 
 Parameters:
 
-* --content_folder   = Folder with content images to transform; default ='contents'
-* --style_folder     = Folder with style images to use; default='styles'
-* --output_folder    = Folder to store the generated image without correction; default='outputs'
-* --resized_folder   = Folder to store the resized content images; default='contents_resized'
-* --corrected_folder = Folder to store final corrected generated images; default='outputs_corrected'
-* --iterations       = Number of iterations to run the optimizer; default = 10
+* `--content_folder`   = Folder with content images to transform; default ='contents'
+* `--style_folder`     = Folder with style images to use; default='styles'
+* `--output_folder`    = Folder to store the generated image without correction; default='outputs'
+* `--resized_folder`   = Folder to store the resized content images; default='contents_resized'
+* `--corrected_folder` = Folder to store final corrected generated images; default='outputs_corrected'
+* `--iterations`       = Number of iterations to run the optimizer; default = 10
 
