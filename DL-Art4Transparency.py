@@ -32,7 +32,7 @@ parser.add_argument('--style_folder',   metavar='style_folder',   type=str, help
 parser.add_argument('--output_folder',  metavar='output_folder',  type=str, help='Folder to store the generated image without correction.', default='outputs')
 parser.add_argument('--resized_folder', metavar='resized_folder', type=str, help='Folder to store the resized content images.', default='contents_resized')
 parser.add_argument('--corrected_folder', metavar='corrected_folder', type=str, help='Folder to store final corrected generated images.', default='outputs_corrected')
-parser.add_argument('--iterations', help='Set the number of iterations to run the optimizer for.', type=int, default=10)
+parser.add_argument('--iterations', help='Set the number of iterations to run the optimizer.', type=int, default=10)
 
 # Parse command line arguments
 args = parser.parse_args()
