@@ -75,7 +75,7 @@ for iContentFile in ContentFileList:
 		print "\n\n---> Running Art Transfer - ", i, "from", n, ":"
 		print sCmd
 		time_AI = time.time()
-		#os.system(sCmd) !!!!!!!!!!!!!!!! ENABLE THIS LINE !!!!!!!!!!!!!!!!!!!
+		os.system(sCmd)
 
 		# Correct the PNG
 		# (1) Resize the input content to the same size of the output
